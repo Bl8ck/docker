@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM openjdk:8-jdk
 MAINTAINER István Földházi <istvan.foldhazi@gmail.com>
 
 ENV JAVA_HOME              /usr/lib/jvm/java-8-openjdk-amd64
