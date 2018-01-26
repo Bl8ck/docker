@@ -4,8 +4,6 @@
 [![](https://img.shields.io/docker/pulls/bankmonitor/spring-boot.svg)](https://hub.docker.com/r/bankmonitor/spring-boot/ 'Docker hub')
 [![](https://images.microbadger.com/badges/image/bankmonitor/spring-boot.svg)](https://microbadger.com/images/bankmonitor/spring-boot "Get your own image badge on microbadger.com")
 
-Version: 1.0
-
 We use the Dockerfiles in production but this repository is under heavy development and can change anytime.
 
 ## Docker Tags
