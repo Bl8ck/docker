@@ -8,7 +8,8 @@ ENV PATH                   $PATH:$JAVA_HOME/bin
 ENV TIME_ZONE              Europe/Budapest
 ENV SPRING_PROFILES_ACTIVE test
 
-RUN echo "$TIME_ZONE" > /etc/timezone
+ENV TZ=$TIME_ZONE
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN dpkg-reconfigure -f noninteractive tzdata
 
 WORKDIR /app
